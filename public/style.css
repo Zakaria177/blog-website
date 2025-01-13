@@ -1,4 +1,9 @@
-/* .headerStyle {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headingStyle {
   color: white;
   background-color: green;
   text-align: center;
@@ -7,4 +12,26 @@
 
 .largeText {
   font-size: 5rem;
-} */
+}
+
+.card {
+  background: #ffda77;
+  box-shadow: 4px 2px 4px skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 390px;
+  display: inline-block;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.cardFooter {
+  font-weight: bold;
+}

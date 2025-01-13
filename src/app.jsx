@@ -8,6 +8,7 @@ const dateName = date.getDate();
 const monthName = date.getMonth();
 const Year = date.getFullYear();
 
+// adding style inside javascript using js
 // const headingStyle = {
 //   backgroundColor: "green",
 //   textAlign: "center",
@@ -20,11 +21,16 @@ export function App() {
     <>
       <div>
         <h1 className="headingStyle">Todo App</h1>
-        <h3>{todoTittle}</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsum!
-        </p>
-        <p>{dateName + "/" + monthName + "/" + Year}</p>
+        <div className="card">
+          <h3 className="cardTitle">{todoTittle}</h3>
+          <p className="cardDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+            ipsum!
+          </p>
+          <p className="cardFooter">
+            {dateName + "/" + monthName + "/" + Year}
+          </p>
+        </div>
       </div>
     </>
   );
