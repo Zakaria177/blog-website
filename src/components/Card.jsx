@@ -19,6 +19,7 @@ function Card() {
         <h3 className="cardTitle">{todoTittle}</h3>
         <p className="cardDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsum!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nihil?
         </p>
         <p className="cardFooter">{dateName + "/" + monthName + "/" + Year}</p>
       </div>
