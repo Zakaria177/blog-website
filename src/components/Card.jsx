@@ -12,14 +12,14 @@ const Year = date.getFullYear();
 //   padding: "10 px",
 // };
 
-function Card() {
+function Card(props) {
+  const {tittleText, cartDes}= props; // This is called props destructuring 
   return (
     <>
       <div className="card">
-        <h3 className="cardTitle">{todoTittle}</h3>
+        <h3 className="cardTitle">{tittleText}</h3>
         <p className="cardDescription">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsum!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nihil?
+          {cartDes}
         </p>
         <p className="cardFooter">{dateName + "/" + monthName + "/" + Year}</p>
       </div>
